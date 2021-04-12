@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food draw app</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Train One', cursive;
+            font-size: 40px;
+            margin: 50px 20px;
+        }
+
+        button {
+            font-size: 32px;
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 20px 20px;
+            text-transform: uppercase;
+            transition-duration: 0.4s;
+            display: block;
+            width: 25%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #000000;
+            color: white;
+        }
+
+        div.food {
+            font-size: 32px;
+            text-align: center;
+            text-decoration: overline;
+            margin: 50px;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .two {
+            display: none;
+            text-align: center;
+
+        }
+
+
+        .active {
+            display: block;
+            margin: 50px;
+            padding: 20px;
+            font-size: 30px;
+            text-decoration: overline;
+        }
+
+
+        .clean {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <h1>W celu wybrania posilku kliknij przycisk</h1>
+        <button class="btn">Klik</button>
+        <div class="food"></div>
+    </div>
+    <div class="two">
+        <h2>Co wypadlo?</h2>
+        <button>DIY :(</button>
+        <div class="two dyi">Zrób: </div>
+        <button>Picka</button>
+        <div class="two pizza">Zamów: </div>
+        <button>Burgerek</button>
+        <div class="two burger">Zamów: </div>
+        <button>Ramen</button>
+        <div class="two ramen">Zamów: </div>
+        <button>Makaronik</button>
+        <div class="two pasta">Zamów: </div>
+        <button>Piwsko</button>
+        <div class="two beer">Kup: </div>
+        <button>KFC</button>
+        <div class="two kfc">Zamów: </div>
+        <button>McDonaldsik</button>
+        <div class="two mc">Zamów: </div>
+        <button>Wege amku</button>
+        <div class="two vege"> </div>
+        <button>Sushi</button>
+        <div class="two sushi"></div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
